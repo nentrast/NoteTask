@@ -58,7 +58,7 @@ class NoteViewController: UIViewController, UITextViewDelegate{
         case .noteExist:
             self.showAlert(withTitle: "Note exist", message: "Change tittle")
         case .suddenShit:
-             self.showAlert(withTitle: "Unexpextable this", message: "oops(")
+             self.showAlert(withTitle: "Unexpextable thing", message: "oops(")
 
         }
     }
