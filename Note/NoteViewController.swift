@@ -10,6 +10,7 @@ import UIKit
 
 class NoteViewController: UIViewController, UITextViewDelegate{
     
+    
     var note:Note? 
     @IBOutlet weak var textViewDescr: UITextView! { didSet{ self.textViewDescr.delegate = self } }
     @IBOutlet weak var textViewTitle: UITextField!
